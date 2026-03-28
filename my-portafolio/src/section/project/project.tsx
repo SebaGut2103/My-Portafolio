@@ -44,7 +44,7 @@ const workProjects: ProjectItem[] = [
   },
 ];
 
-const academicProjects: ProjectItem[] = [
+/* const academicProjects: ProjectItem[] = [
   {
     title: "Proyecto de fin de carrera",
     description:
@@ -61,7 +61,7 @@ const academicProjects: ProjectItem[] = [
     link: "#contact",
     image: "/images/projects/academic2.png",
   },
-];
+]; */
 
 interface ProjectCardProps {
   project: ProjectItem;
