@@ -24,7 +24,7 @@ const Landing: React.FC = () => {
       </div>
 
       {/* Capa de contenido: pointer-events-none para que los clicks pasen al canvas */}
-      <div className="pointer-events-none relative z-10 flex flex-col items-center justify-center h-full px-4">
+      <div className="pointer-events-none relative z-10 flex flex-col items-center justify-center h-full px-4 text-slate-100">
         <div className="text-center">
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl font-extrabold mb-4 bg-gradient-to-r from-cyan-300 via-sky-400 to-cyan-500 bg-clip-text text-transparent">
@@ -32,7 +32,7 @@ const Landing: React.FC = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-cyan-200/80 mb-10 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-slate-300/90 mb-10 max-w-2xl mx-auto">
             Desarrollador de Software Junior
           </p>
 
