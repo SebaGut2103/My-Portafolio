@@ -1,5 +1,5 @@
-import React from 'react';
-import PixelBlast from '../../component/ui/pixelBlast/PixelBlast';
+import React from "react";
+import PixelBlast from "../../component/ui/pixelBlast/PixelBlast";
 
 const Landing: React.FC = () => {
   return (
@@ -9,16 +9,20 @@ const Landing: React.FC = () => {
         <PixelBlast
           variant="square"
           color="#0b6e74"
-          pixelSize={4}
-          patternScale={2.5}
-          patternDensity={0.8}
-          speed={0.4}
-          enableRipples={true}
+          patternScale={2}
+          patternDensity={1}
+          pixelSizeJitter={0}
+          enableRipples
+          rippleSpeed={0.4}
+          rippleThickness={0.12}
           rippleIntensityScale={1.5}
-          rippleThickness={0.08}
-          rippleSpeed={0.25}
-          edgeFade={0.3}
-          transparent={true}
+          liquid={false}
+          liquidStrength={0.12}
+          liquidRadius={1.2}
+          liquidWobbleSpeed={5}
+          speed={0.5}
+          edgeFade={0.25}
+          transparent
         />
       </div>
 
@@ -29,10 +33,10 @@ const Landing: React.FC = () => {
           <h1 className="text-5xl md:text-7xl font-extrabold mb-4 bg-gradient-to-r from-cyan-300 via-purple-400 to-pink-400 bg-clip-text text-transparent drop-shadow-[0_8px_24px_rgba(0,245,255,0.12)]">
             Welcome to My Portfolio
           </h1>
-          
+
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-cyan-200 mb-8 max-w-2xl mx-auto">
-            Exploring creativity through code and design
+            Exploring to my
           </p>
 
           {/* CTA Buttons */}
